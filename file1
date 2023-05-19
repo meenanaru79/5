@@ -1,0 +1,10 @@
+public class EmptyString {
+    public static boolean isEmpty(String str) {
+        return str.isEmpty();
+    }
+
+    public static void main(String[] args) {
+        String str = "";
+        System.out.println(isEmpty(str));
+    }
+}
